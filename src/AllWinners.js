@@ -3,7 +3,7 @@ import Prize from "./Prize";
 import "./AllWinners.css";
 
 function AllWinners() {
-  const API = "http://api.nobelprize.org/v1/prize.json";
+  const API = "https://api.nobelprize.org/v1/prize.json";
   const [Data, setData] = useState([]);
 
   useEffect(() => {
