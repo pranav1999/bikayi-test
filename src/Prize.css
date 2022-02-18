@@ -13,8 +13,20 @@
     margin: auto;
 }
 
+#name{
+    text-align: center;
+    padding: 2px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+    margin: auto 3px;
+}
+
 #motivation{
     text-align: center;
+    max-width: 80%;
+    margin: auto;
 }
 
 .laurates{
