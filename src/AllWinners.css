@@ -1,0 +1,8 @@
+.allWinners > h1{
+    text-align: center;
+}
+
+.allWinners{
+    margin-top: 5px;
+    padding: 5px;
+}
