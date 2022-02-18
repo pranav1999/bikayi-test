@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <header className="header">
         <h1>Nobel Prize Winners for the last 💯 Years</h1>
-        <TopFour />
+        {/* <TopFour /> */}
         <AllWinners />
       </header>
     </div>

@@ -1,19 +1,24 @@
 import React from "react";
 import "./Prize.css";
 
-function Prize() {
+function Prize(props) {
+
+
   return (
     <div className="prize">
       <div className="prize-top">
-        <h4>2021</h4>
-        <h4>Category</h4>
+        <h4>{props.year}</h4>
+        <h4>{props.category}</h4>
       </div>
-      <p id="motivation">for the discovery of an exoplanet orbiting a solar-type star</p>
+      <p id="motivation">{props.motivation}</p>
       <div className="laurates">
-        <p>samual jackson</p>
-        <p>john peterson</p>
-        <p>jeff bezos</p>
-        <p>tom cruz</p>
+        {props.arr.length>0 &&
+          props.arr.map((data) =>{
+            return(
+              <p>{data.firstname}<span>{data.surname}</span></p>
+            )
+          })
+        }
       </div>
     </div>
   );
