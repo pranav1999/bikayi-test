@@ -18,11 +18,13 @@ function AllWinners() {
   }, []);
 
   var prizeyear = [];
-  for(let i=1900;i<=2021;i++){
+  for(let i=1900;i<=2018;i++){
     prizeyear.push(i);
   }
 
   var domains = ["chemistry","economics","litrature","peace","physics","medicine"]
+
+
 
   return (
     <div className="allWinners">
